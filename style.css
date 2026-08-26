@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* header */
+header {
+    background-color: #0d6efd;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #084298;
+}
+
+
+/* section */
+section {
+    padding: 30px;
+    margin: 20px;
+}
+
+h2 {
+    color: #0d6efd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* upcoming event & event card */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.event-card h3 {
+    color: #08c96f;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin: 8px 0;
+}
+
+.event-card:hover {
+    background-color: #e9f2ff;
+}
+
+
+/* Register Button */
+.register-btn {
+    display: block;
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.register-btn:hover {
+    background-color: #084298;
+}
+
+
+/* Form */
+form {
+    background-color: white;
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+/* Buttons */
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0d6efd;
+}
+
+button[type="reset"] {
+    background-color: #0d6efd;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+/* FAQ */
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.faq-item h3 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
